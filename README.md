@@ -1,9 +1,9 @@
 
 
 
-# DesafioFullstack Frontend | Khipo
+# Sck Admin | Front-End
 
-Esse projeto foi desenvolvido com o intúito de aplicar para a vaga de Fullstack Developer oferecida pela empresa  **Khipo**.  O projeto é desenvolvido em javascript e possui dois repositórios separados, um para o Back-End, utilizando NestJs como base, e este respositório para o Front-End da plataforma desenvolvida.
+Esse projeto foi desenvolvido para gestão pessoal da  **SCK**.  O projeto é desenvolvido em javascript e possui dois repositórios separados, um para o Back-End, utilizando NestJs como base, e este respositório para o Front-End da plataforma desenvolvida.
 
 O repositório da api fica localizado na URL: https://github.com/KelvinSilvaDev/DesafioFullstack-Backend-Khipo
 
@@ -22,7 +22,7 @@ Não foi possível elaborar melhor essa funcionalidade no frontend, devido ao pr
  - NestJs para o Back-End
  - Banco de dados MongoDB
 
-Link do protótipo fornecido: https://www.figma.com/file/VG71RL6DVWZizD8ESiWDkA/ChallengeDashboard?node-id=0%3A1
+
 
 #### Telas:
 
@@ -50,10 +50,6 @@ O Back-End precisa de duas variáveis de ambiente:
 
 `JWT_SECRET=`
 `DATABASE_URL=`
-
-Exemplo dos dados que foram utilizados na aplicação:
-`JWT_SECRET=eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJJc3N1ZXIiLCJVc2VybmFtZSI6IkphdmFJblVzZSJ9.nLQi-i-p8XX72uNiDTwXjg_NCyMy8fRuY8sQG7npR9Q`
-`DATABASE_URL=mongodb+srv://admin:QIStc1Us1IgV76pV@khipocluster.q0qyjc0.mongodb.net/KhipoCluster`
 
 O Front-End precisa de uma única variável chamada `VITE_REACT_APP_BASE_URL` que aponta o endereço da Api de autenticação que foi criada.
 
@@ -94,13 +90,7 @@ Para utilizar a plataforma é basta acessar os links inseridos acima, o usuário
 
 ![Captura de tela 2023-01-18 085610](https://user-images.githubusercontent.com/63024154/213127477-a1bf2da4-c38a-43ec-a894-1905d3279cb5.png)
 
-Após isso basta inserir um e-mail e senha válidos:
-
-`E-mail` teste@teste.com
-
-`Senha` Teste@123
-
-Ou clicar no botão 'Sign Up', a direita do cabeçalho da página para cadastrar um novo usuário. Caso escolha essa opção o usuário será redirecionado à página de Cadastro:
+Após isso basta inserir um e-mail e senha válidos ou clicar no botão 'Sign Up', a direita do cabeçalho da página para cadastrar um novo usuário. Caso escolha essa opção o usuário será redirecionado à página de Cadastro:
 
 ![image](https://user-images.githubusercontent.com/63024154/213128310-d406f57b-2e61-4898-bc00-39d3d4282696.png)
 
@@ -110,8 +100,3 @@ Após realizar um cadastro ou fazer login, o usuário será redirecionado para a
 ![image](https://user-images.githubusercontent.com/63024154/213128784-de19c52b-2852-46d7-9a77-afed6157504d.png)
 
 Para realizar logoff basta clicar no botão 'Sign Out' que agora está no lugar do botão 'Sign In' dos passos anteriores.
-
-
-## Considerações Finais:
-
-Deixo aqui meus sinceros agradecimentos por conhecer sobre a Khipo, o tipo de trabalho executado e o desafio proposto, foi uma experiência muito rica, com diversos desafios, porém ao mesmo tempo de muito prazer como a um bom tempo eu não via, é prazeroso trabalhar com projetos que possuam essa complexidade, e com certeza mais ainda com estruturas mais robustas a nível de tecnolgia, de certo modo o que mais brilha aos olhos de um desenvolvedor em minha opnião é a vontade de progredir em carreira e se tornar um profissional cada vez mais capacidado e qualificado para o mercado de trabalho, e a Khipo oferece esse tipo de oportunidade, pude perceber isso pela proposta e a conversa prévia ao desafio.
