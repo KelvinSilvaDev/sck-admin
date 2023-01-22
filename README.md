@@ -5,7 +5,7 @@
 
 Esse projeto foi desenvolvido para gestão pessoal da  **SCK**.  O projeto é desenvolvido em javascript e possui dois repositórios separados, um para o Back-End, utilizando NestJs como base, e este respositório para o Front-End da plataforma desenvolvida.
 
-O repositório da api fica localizado na URL: https://github.com/KelvinSilvaDev/DesafioFullstack-Backend-Khipo
+O repositório da api fica localizado na URL: https://github.com/KelvinSilvaDev/sck-api
 
 
 # Observações
@@ -71,18 +71,10 @@ Para isso é necessário clonar os dois respositórios e configurar suas variáv
 
 ## Deploy
 
-O deploy da aplicação ocorreu em duas plataformas difrentes, o Front-End está em produção na Vercel enquanto que o Back-End está na Render.
+O deploy da aplicação ocorrerá em duas plataformas difrentes, o Front-End na Vercel enquanto que o Back-End na Render.
 
 Cada uma funcionou respectivamente bem em diversos testes de deploy, configuração e funcionamento, desta forma foram os que tiveram melhor compatibilidade com as tecnologias utilizadas nos projetos da Api e da aplicação Vite.
 
-Para acessar os links e conferir melhor:
-
-[Api](https://api-khipo-dashboard.onrender.com)
-
-[Dashboard](https://desafio-fullstack-frontend-khipo.vercel.app/)
-
-##### Nota:
-Após alguns testes ao longo dos dias foi percebida uma queda de performance na resposta da api, provavelmente por conta do plano gratuito da hospedagem Render, com um pouco mais de tempo seria possível avaliar melhores alternativas.
 
 # Como utilizar a plataforma?
 
